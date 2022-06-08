@@ -63,7 +63,7 @@ public class Counters {
     /*
      * When crawling is set to be resumable, we have to keep the statistics
      * in a transactional database to make sure they are not lost if crawler
-     * is crashed or terminated unexpectedly.
+     * is crashed or terminated unexpectedly. 
      */
         if (config.isResumableCrawling()) {
             DatabaseConfig dbConfig = new DatabaseConfig();
